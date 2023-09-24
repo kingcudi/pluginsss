@@ -94,7 +94,7 @@ public class TodtContext extends CoreContext
 
 	public int getWintertodtEnergy()
 	{
-		final var widget = Widgets.get(396, 21);
+		final var widget = Widgets.get(396, 20);
 		if (widget != null)
 		{
 			final var matcher = NUMBER_PATTERN.matcher(widget.getText());
